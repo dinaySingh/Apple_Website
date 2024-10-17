@@ -9,6 +9,7 @@ const Highlights = () => {
     gsap.to('#title',{opacity:1, y:0})
     gsap.to('.link',{opacity:1, y:0, duration:1,stagger:0.25})
   }},[])
+  
   return (
 <section id="highlights" className="w-screen overflow-hidden h-full common-padding bg-zinc">
 <div className="screen-max-width">
@@ -16,7 +17,7 @@ const Highlights = () => {
 
 <h1 id="title" className="section-heading">
 Get the highlights
-</h1>
+</h1> 
 
 <div className="flex flex-wrap items-end gap-6">
 <p className="link">Watch the film <img src={watchImg} alt="Watch" className="ml-2" /></p>
